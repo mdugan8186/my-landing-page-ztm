@@ -1,0 +1,68 @@
+html { 
+  background: url(https://image.pbs.org/video-assets/ElBJDzi-asset-mezzanine-16x9-XzXxRKY.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: mintcream;
+  font-family: monospace, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 50px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+p {
+  width: 300px;
+  font-size: 20px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: orange;
+  border-radius: 20px;
+  border: orange;
+  padding: 20px 40px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #ff8c00;
+  border: #ff8c00;
+}
